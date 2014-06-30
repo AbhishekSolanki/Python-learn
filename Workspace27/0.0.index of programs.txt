@@ -17,7 +17,7 @@
 9.   list - sum function program
 9.1. list - average program
 10.  dictionary
-11.  import
+11.  Modules (Import)
 12.  OOP - Class, constructor(__init__), object, Inheritance
 13.  Exception Handling
 14.  GUI programming
