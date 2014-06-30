@@ -1,0 +1,23 @@
+1.   print
+2.   comment
+2.2. program to convert fahrenheit to celcius
+3.   sum
+3.1. Minute/day hrs/week
+4.   input
+5.   file handling - open and write
+5.1. file handling - read
+5.2. file handling - raw input,read,write
+6.   functions
+6.1. functions with parameters
+7.   if..else
+7.1. if..else in function
+8.   while loop
+8.1. for loop
+8.2. factorial
+9.   list - sum function program
+9.1. list - average program
+10.  dictionary
+11.  import
+12.  OOP - Class, constructor(__init__), object, Inheritance
+13.  Exception Handling
+14.  GUI programming

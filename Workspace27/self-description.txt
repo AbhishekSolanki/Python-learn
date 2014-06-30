@@ -1,0 +1,19 @@
+This document contains the description and concept of "self" in PY
+
+1. 
+==
+Let's say you have a class ClassA which contains a method methodA defined as:
+
+def methodA(self, arg1, arg2):
+    #do something
+and ObjectA is an instance of this class.
+
+Now when ObjectA.methodA(arg1, arg2) is called, python internally converts it for you as:
+
+ClassA.methodA(ObjectA, arg1, arg2)
+
+The self variable refers to the object itself.
+
+2.
+==
+Its use is nearly the same as that of this keyword in Java, i.e. to give a reference to the current object.
