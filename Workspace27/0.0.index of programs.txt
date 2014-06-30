@@ -21,3 +21,4 @@
 12.  OOP - Class, constructor(__init__), object, Inheritance
 13.  Exception Handling
 14.  GUI programming
+15.  SQLite
