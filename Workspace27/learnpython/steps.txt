@@ -1,0 +1,5 @@
+1. set environment variables to python/scripts
+2. to create django project execute command django-admin.py startproject PROJECT_NAME
+3. a directory will be created as PROJECT_NAME
+4.to run a sample server execute a script in the new directory - manage.py
+manage.py runserver 

@@ -27,3 +27,4 @@
 18.  XML Parsing
 19.  Web Programming - Cherrypy Framework
 20.  Simple web form - html in PY
+DIR. learnpython - Django Into Application(creating Models)
