@@ -1,0 +1,79 @@
+Microsoft Windows [Version 6.2.9200]
+(c) 2012 Microsoft Corporation. All rights reserved.
+
+C:\Users\Abhishek Solanki>cd C:\Users\Abhishek Solanki\Documents\GitHub\Python-l
+earn\Workspace27\learnpython
+
+***** creating table from model
+C:\Users\Abhishek Solanki\Documents\GitHub\Python-learn\Workspace27\learnpython>
+manage.py syncdb
+Creating tables ...
+Creating table msg_message
+Installing custom SQL ...
+Installing indexes ...
+Installed 0 object(s) from 0 fixture(s)
+
+
+*****opening Python shell
+C:\Users\Abhishek Solanki\Documents\GitHub\Python-learn\Workspace27\learnpython>
+manage.py shell
+Python 2.7.6 (default, Nov 10 2013, 19:24:18) [MSC v.1500 32 bit (Intel)] on win
+32
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from msg.models import Message
+>>> Message.objects.all()
+[]
+>>> testmessage = Message(message="test message",username="Test User")
+>>> Message.objects.all()
+[]
+>>> testmessage.save()
+>>> Message.objects.all()
+[<Message: Message object>]
+>>> msgobjects = Message.objects.all()
+>>> msgobjects[0]
+<Message: Message object>
+>>> msgobjects[0].message
+u'test message'
+>>> msgobjects[0].username
+u'Test User'
+>>> testmessage2 = Message(message="msg2",username="usr2")
+>>> testemessage2.save()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'testemessage2' is not defined
+>>> testmessage2.save()
+>>> testmessage3 = Message(message="msg3",username="usr3")
+>>> testmessage3.save()
+>>> messageobjects = Message.objects.all()
+>>> messageobjects
+[<Message: Message object>, <Message: Message object>, <Message: Message object>
+]
+>>> for x in messageobjects:
+...
+... print x.username
+  File "<console>", line 3
+    print x.username
+        ^
+IndentationError: expected an indented block
+>>> for x in messageobjects:
+...     print x.username
+...
+Test User
+usr2
+usr3
+>>> messageobjects2 = Message.objects.filter(username__startswith="usr")
+>>> messageobjects2
+[<Message: Message object>, <Message: Message object>]
+>>> for x in messageobjects2:
+...     print x.username
+...
+usr2
+usr3
+>>>
+***** ordering 
+>>> msgobj2 = Message.objects.all()
+>>> msgobj2.order_by('username')
+[<Message: Message object>, <Message: Message object>, <Message: Message object>
+]
+>>>

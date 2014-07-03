@@ -1,0 +1,2 @@
+-after creating models.py in msg execute the command to sync and create
+manage.py syncdb
