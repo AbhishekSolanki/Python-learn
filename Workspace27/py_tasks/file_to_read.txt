@@ -1,0 +1,6 @@
+Hello this is file_to_read.txt
+located in my py_task directory
+lets see if i can retrieve last three line of this file
+line 1
+line 2
+line 3
