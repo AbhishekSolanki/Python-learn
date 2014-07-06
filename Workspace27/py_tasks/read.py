@@ -3,7 +3,7 @@
 
 #function to find the no. of lines
 def file_len(filename):
-    with open(filename) as f:
+    with file_object as f:
         for i, l in enumerate(f):
             pass
     return i + 1
@@ -12,12 +12,15 @@ def file_len(filename):
 #Retrieving 
 def lastThree(filename,n):
     Lines = file_len(filename)
-    file_object = open(filename)
     data = file_object.readlines()
+  
     for i in range(Lines-n,Lines):
         print data[i]
+    
+    
 
 
+file_object = open("file_to_read.txt")
 lastThree("file_to_read.txt",3)
 
 
