@@ -1,0 +1,108 @@
+so today hangout will be fine ?
+ Jigar:  yup ...
+ me:  okay let me ask them
+ Jigar:  give me time!
+ me:  okay
+ Sent at 15:26 on Sunday
+ Jigar:  use python 2.7.6
+ me:  yes... stable :-)
+ Jigar:  :-)
+ Sent at 15:33 on Sunday
+ me:  Shrey can't do hangout as he dont have laptop yet
+and i've whatsapped mohita she seems busy
+ Jigar:  okay@
+laptop nahi hai matlab?
+:-o
+ me:  he has worked on clg computers only... he don't have laptop.....Jayesh bhai told that may he'd arrange clg laptop or from hemal sir
+may be*
+ Jigar:  okay! 
+ me:  :-(
+ Jigar:  so what about meeting?
+ me:  i am always read !
+ Jigar:  good  :-)
+ Sent at 15:39 on Sunday
+ me:  hey we can do one thing ... we three i.e u, me and mohita will do  hangout and record the session .... that we will give to shrey ?
+what you say ?
+ Sent at 15:41 on Sunday
+ me:  0.0156132351418 :-)
+now whats that seconds or ms ?
+ Sent at 15:47 on Sunday
+ me:  i used import timeit
+ Sent at 15:48 on Sunday
+ Jigar:  ms
+ me:  so thats good
+or .... boad
+bad*
+ Jigar:  good !  :D
+ me:  ;-)
+ Jigar:  refer 
+http://stackoverflow.com/questions/1557571/how-to-get-time-of-a-python-program-execution
+ me:  okay
+ Jigar:  which os you are using?
+ me:  windows 8
+ Jigar:  ok
+ me:  wbu ?
+ Jigar:  windows 7 
+:-)
+ me:  okay....hey mohita is saying 9 pm
+it'll be okay for you ?
+ Jigar:  okay!
+ me:  okay so hangout @ 2100 Hrs
+done !
+ Jigar:  done!  :-)
+ Sent at 15:53 on Sunday
+ Jigar:  and yes...when you calculate time for python program it will be in seconds
+ me:  okay...ic
+ Jigar:  not ms...ms when we are using time calcaulation differently 
+ me:  accha
+ Sent at 15:55 on Sunday
+ me:  i used
+import time
+start_time = time.time()
+main()
+print("--- %s seconds -" % time.time() - start_time)
+and got
+0.0160000324249
+ Jigar:  yup! 
+ me:  the code "timing.py" which you send shows only start time
+so its normal or its taking too much time
+ Jigar:  which file?
+ me:  there is a code name "timing.py"  in the above link you send
+so it is 16ms :-(
+ Jigar:  arayyyy.......tension mat le
+this is not only time for your program
+its include cpu extra time
+ me:  okay !!
+my cpu is good
+ Jigar:  ahan!
+ me:  just kiddin.... i'll  run in ubuntu vm and will see
+ Jigar:  yo!
+ Sent at 16:11 on Sunday
+ me:  tested apache log of 2506 lines using this program and it took 0.0529999732971 which is of 3.5 MB
+ Jigar:  :-)
+ Sent at 16:19 on Sunday
+ me:  the 3.5 MB apace_log took 0.0145690441132 in ubuntu 14 64bit vm
+its true man.....linuz is fast
+linux*
+ Jigar:  ha ha  :-)
+linux (y)
+ me:  i can't believe 3.5 MB took less time to execute than 1KB on windows
+hehe
+ Jigar:  depends on kernel 
+which kernel you are using!
+ me:  3.13.0-24-generic
+uname - r shows kernal version right ?
+ Jigar:  ohh! i am talking about windows and linux....  :-)
+yes
+ me:  how to check on winows
+ Sent at 16:26 on Sunday
+ Jigar:  abhi ...linux is fast..  :-) windows i dont know  
+ me:  achha !
+:-)
+so i'll start classes and objects and some basic things.... you just give simple task in between
+ Jigar:  okay
+ me:  you continue your work.....i already took too much of your time...will talk @ 8 pm :-)
+sorry 9 pm
+ Jigar:  achha! fine ! sure
+:-)
+ Sent at 16:29 on Sunday

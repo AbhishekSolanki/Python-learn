@@ -1,3 +1,6 @@
+import time
+start_time = time.time()
+
 class test:
         
     def lastThree(self,filename,n):
@@ -6,7 +9,7 @@ class test:
         
         with file_object as f:
             no_of_lines = len(file_object.readlines())
-            
+            print no_of_lines
             if(n>0 and n<=no_of_lines):
                 file_object.seek(0)
                 lines = file_object.readlines()
@@ -17,5 +20,7 @@ class test:
                 file_object.close()
                 print "Invalid line(s) selection"
 
-testObj = test()
-testObj.lastThree("file_to_read.txt",3)
+obj = test()
+obj.lastThree("apache_error.log",3)
+
+print(time.time() - start_time)
