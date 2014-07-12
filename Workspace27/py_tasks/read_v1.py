@@ -1,6 +1,3 @@
-import time
-start_time = time.time()
-
 class test:
         
     def lastThree(self,filename,n):
@@ -22,5 +19,3 @@ class test:
 
 obj = test()
 obj.lastThree("apache_error.log",3)
-
-print(time.time() - start_time)
