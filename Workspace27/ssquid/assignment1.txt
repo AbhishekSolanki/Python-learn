@@ -1,0 +1,19 @@
+Assignment : python 
+
+
+write a program to
+1.Read parameters from setting.conf file and printing them
+2.Considering list of 10 names from txt file, reading it and making folders
+3.Convert bytes into Kb,KB,Mb,MB,Gb,Gb
+4.Considering below line from txt file, reading it and parsing with regex and store in memory and print each 17 fields
+		"1407332545.633-309-107.170.131.123-8080" 0 122.169.105.36 "-" "309" [06/Aug/2014:09:42:25] "CONNECT connect://accounts.google.com:443/" 407 0 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36" - "access-restrictions Proxy Authentication Required" "text-filter,image-filter,application-filter,CONNECT,uncachable" "107.170.131.123:8080"
+		"1407332547.410-310-107.170.131.123-8080" 0 122.169.105.36 "-" "310" [06/Aug/2014:09:42:27] "CONNECT connect://accounts.google.com:443/" 407 0 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36" - "access-restrictions Proxy Authentication Required" "text-filter,image-filter,application-filter,CONNECT,uncachable" "107.170.131.123:8080"
+		"1407332550.080-311-107.170.131.123-8080" 0 122.169.105.36 "-" "311" [06/Aug/2014:09:42:30] "CONNECT connect://accounts.google.com:443/" 407 0 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36" - "access-restrictions Proxy Authentication Required" "text-filter,image-filter,application-filter,CONNECT,uncachable" "107.170.131.123:8080"
+		"1407332554.754-312-107.170.131.123-8080" 0 122.169.105.36 "-" "312" [06/Aug/2014:09:42:34] "CONNECT connect://accounts.google.com:443/" 407 0 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36" - "access-restrictions Proxy Authentication Required" "text-filter,image-filter,application-filter,CONNECT,uncachable" "107.170.131.123:8080"
+		"1407332563.999-313-107.170.131.123-8080" 0 122.169.105.36 "-" "313" [06/Aug/2014:09:42:43] "CONNECT connect://accounts.google.com:443/" 407 0 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36" - "access-restrictions Proxy Authentication Required" "text-filter,image-filter,application-filter,CONNECT,uncachable" "107.170.131.123:8080"
+		"1407332581.366-315-107.170.131.123-8080" 0 122.169.105.36 "-" "315" [06/Aug/2014:09:43:01] "CONNECT connect://accounts.google.com:443/" 407 0 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36" - "access-restrictions Proxy Authentication Required" "text-filter,image-filter,application-filter,CONNECT,uncachable" "107.170.131.123:8080"
+		"1407332702.461-316-107.170.131.123-8080" 0 31.131.249.18 "-" "316" [06/Aug/2014:09:45:02] "GET http://t4.proxy-checks.com:80/pt.php" 407 0 "-" "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.21022; .NET CLR 3.5.30729; .NET CLR 3.0.30618)" - "access-restrictions Proxy Authentication Required" "text-filter,image-filter,application-filter,HTTP" "107.170.131.123:8080"
+		"1407337455.311-317-107.170.131.123-8080" 1 171.111.153.168 "-" "317" [06/Aug/2014:11:04:15] "GET http://azenv.net:80/" 407 0 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" - "access-restrictions Proxy Authentication Required" "text-filter,image-filter,application-filter,HTTP" "107.170.131.123:8080"
+5.Make a socket listen on port 7553 using python code
+6.Converting msec to hh:mm:ss formate
+7.Usage of logger function
