@@ -8,12 +8,12 @@ b = 1
 c = 0
 logging.debug("a,b successfully initialized")
 no = input("Enter range ")
-if(no>100):
+if(no>100 or no<10):
     logging.warning('no. too big .....will take some time')
     logging.error("Technical error!")
+    exit()
 else:
-    logging.debug('no. in range')
-    logging.info("hi")
+    logging.info('no. in range, execution started')
 
 
 while(c < no):
@@ -21,3 +21,4 @@ while(c < no):
     b = c
     print c
     c = a+b
+logging.info("Finished")
