@@ -1,0 +1,10 @@
+assignment : python
+
+write a program
+1.Consider 10 words in text and sort words in alphabetical order and print them
+2.Print current date and time
+3.Generate a random number and print it
+4.Write a program to reverse string and compute time taken to complete the task
+5.Search string occurrence in file and print occurrence
+6.Consider a file where u will be adding repeated names of ur friends in random lines and count occurrence and print  
+				"Name  --> occurrence"

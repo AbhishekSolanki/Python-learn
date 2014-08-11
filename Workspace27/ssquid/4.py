@@ -36,7 +36,7 @@ for line in log_instance:
     mime.append(m.group("mime"))
     filter_name.append(m.group("filter_name"))
     filter_profile.append(m.group("filter_profile"))
-    #interface(m.group("interface"))
+    interface.append(m.group("interface"))
 
 print ids
 print elapsed_time
@@ -52,7 +52,7 @@ print user_agent
 print mime
 print filter_name
 print filter_profile
-#print interface
+print interface
 
     
     
